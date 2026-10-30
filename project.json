@@ -1,12 +1,31 @@
 {
-  "userId": "u_5da8dfd6cca4e6fd",
-  "projectId": "test-01",
+  "schemaVersion": 2,
   "name": "Test 01",
-  "board": {
-    "fqbn": "esp32:esp32:esp32"
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s2",
+    "options": {
+      "JTAGAdapter": "default",
+      "CDCOnBoot": "cdc",
+      "MSCOnBoot": "default",
+      "DFUOnBoot": "default",
+      "UploadMode": "default",
+      "PSRAM": "disabled",
+      "PartitionScheme": "default",
+      "CPUFreq": "240",
+      "FlashMode": "qio",
+      "FlashFreq": "80",
+      "FlashSize": "4M",
+      "UploadSpeed": "921600",
+      "DebugLevel": "none",
+      "EraseFlash": "none",
+      "ZigbeeMode": "default"
+    }
   },
-  "selections": null,
   "serial": null,
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-10-30T10:03:05.263Z",
-  "updatedAt": "2026-10-30T10:03:05.263Z"
+  "updatedAt": "2026-10-30T10:12:20.371Z"
 }
